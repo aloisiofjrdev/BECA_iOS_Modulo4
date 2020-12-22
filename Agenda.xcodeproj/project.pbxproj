@@ -26,6 +26,7 @@
 		B9D565A71FE14ECA00BDA536 /* Notificacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D565A61FE14ECA00BDA536 /* Notificacoes.swift */; };
 		B9EA19FB1FDEBEAD00403CE0 /* Localizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA19FA1FDEBEAD00403CE0 /* Localizacao.swift */; };
 		B9FFD4511FDEE6F700CEE593 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFD4501FDEE6F700CEE593 /* MapaViewController.swift */; };
+		D332412E25927436007B69B8 /* AlunoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D332412D25927436007B69B8 /* AlunoAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		B9D565A61FE14ECA00BDA536 /* Notificacoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notificacoes.swift; sourceTree = "<group>"; };
 		B9EA19FA1FDEBEAD00403CE0 /* Localizacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizacao.swift; sourceTree = "<group>"; };
 		B9FFD4501FDEE6F700CEE593 /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+		D332412D25927436007B69B8 /* AlunoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoAPI.swift; sourceTree = "<group>"; };
 		EFBE9A933CCD8973F4F7AC18 /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E3B881A2DF616B2FE34C7C /* Pods-Agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agenda.release.xcconfig"; path = "Target Support Files/Pods-Agenda/Pods-Agenda.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +74,6 @@
 				67CF414964956063ADCD5772 /* Pods-Agenda.debug.xcconfig */,
 				F6E3B881A2DF616B2FE34C7C /* Pods-Agenda.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -141,6 +142,7 @@
 		03AA17691FC84A2D003CB2B8 /* Alunos */ = {
 			isa = PBXGroup;
 			children = (
+				D332412C259273CE007B69B8 /* Model */,
 				03AA176A1FC84A2D003CB2B8 /* Controller */,
 			);
 			path = Alunos;
@@ -214,6 +216,14 @@
 				B9FFD4501FDEE6F700CEE593 /* MapaViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		D332412C259273CE007B69B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D332412D25927436007B69B8 /* AlunoAPI.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03AA176D1FC8515A003CB2B8 /* AlunoViewController.swift in Sources */,
+				D332412E25927436007B69B8 /* AlunoAPI.swift in Sources */,
 				65F277D92006901C00A8F1BF /* Pino.swift in Sources */,
 				03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */,
 				03AA17561FC84154003CB2B8 /* Agenda.xcdatamodeld in Sources */,
