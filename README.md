@@ -1,4 +1,6 @@
 # BECA_iOS_Modulo4
 
 
-Começando os estudos do módulo 4 da BECA_iOS.
+Curso 4.1 - iOS parte 1: Web Services e Sincronização Offline - Status: 100% Completado
+Curso 4.2 - iOS parte 2: Sincronização offline e integração com Firebase - Status: Não fazer, orientação dos supervisores.
+
