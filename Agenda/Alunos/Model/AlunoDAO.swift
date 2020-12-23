@@ -39,6 +39,8 @@ class AlunoDAO: NSObject {
     
     func salvaAluno(dicionarioDeAluno: Dictionary<String, Any>) {
         let aluno = Aluno(context: contexto)
+        
+        guard let id  = UUID(uuidString: dicionarioDeAluno["id"] as! String) else { return }
         aluno.nome = dicionarioDeAluno["nome"] as? String
         aluno.endereco = dicionarioDeAluno["endereco"] as? String
         aluno.telefone = dicionarioDeAluno["telefone"] as? String

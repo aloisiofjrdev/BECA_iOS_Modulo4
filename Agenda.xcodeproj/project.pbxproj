@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		03AA174E1FC84154003CB2B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA174D1FC84154003CB2B8 /* AppDelegate.swift */; };
 		03AA17531FC84154003CB2B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AA17511FC84154003CB2B8 /* Main.storyboard */; };
-		03AA17561FC84154003CB2B8 /* Agenda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03AA17541FC84154003CB2B8 /* Agenda.xcdatamodeld */; };
 		03AA17581FC84154003CB2B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AA17571FC84154003CB2B8 /* Assets.xcassets */; };
 		03AA175B1FC84154003CB2B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AA17591FC84154003CB2B8 /* LaunchScreen.storyboard */; };
 		03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA17651FC84353003CB2B8 /* HomeTableViewController.swift */; };
@@ -35,7 +34,6 @@
 		03AA174A1FC84154003CB2B8 /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AA174D1FC84154003CB2B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03AA17521FC84154003CB2B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		03AA17551FC84154003CB2B8 /* Agenda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Agenda.xcdatamodel; sourceTree = "<group>"; };
 		03AA17571FC84154003CB2B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03AA175A1FC84154003CB2B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03AA175C1FC84154003CB2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 				03AA17571FC84154003CB2B8 /* Assets.xcassets */,
 				03AA17591FC84154003CB2B8 /* LaunchScreen.storyboard */,
 				03AA175C1FC84154003CB2B8 /* Info.plist */,
-				03AA17541FC84154003CB2B8 /* Agenda.xcdatamodeld */,
 			);
 			path = Agenda;
 			sourceTree = "<group>";
@@ -357,7 +354,6 @@
 				65F277D92006901C00A8F1BF /* Pino.swift in Sources */,
 				D3324132259297C3007B69B8 /* AlunoDAO.swift in Sources */,
 				03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */,
-				03AA17561FC84154003CB2B8 /* Agenda.xcdatamodeld in Sources */,
 				A281001A1FD5C2F700E1BDF1 /* ImagePicker.swift in Sources */,
 				B911302A1FE05358002768A7 /* CalculaMediaAPI.swift in Sources */,
 				03AA17681FC843B1003CB2B8 /* HomeTableViewCell.swift in Sources */,
@@ -555,19 +551,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		03AA17541FC84154003CB2B8 /* Agenda.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				03AA17551FC84154003CB2B8 /* Agenda.xcdatamodel */,
-			);
-			currentVersion = 03AA17551FC84154003CB2B8 /* Agenda.xcdatamodel */;
-			path = Agenda.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 03AA17421FC84154003CB2B8 /* Project object */;
 }
