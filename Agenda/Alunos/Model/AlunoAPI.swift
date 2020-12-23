@@ -45,5 +45,20 @@ class AlunoAPI: NSObject {
         requisisao.addValue("application/json", forHTTPHeaderField: "Content-Type")
         Alamofire.request(requisisao)
     }
+    
+    
+    // MARK: - DELETE
+    
+    func deletaAluno(id:String){
+        Alamofire.request("http://localhost:8080/api/aluno/\(id)", method: .delete).responseJSON { (resposta) in
+            switch resposta.result {
+            case .failure:
+                print(resposta.result.error!)
+                break
+            default:
+                break
+            }
+        }
+    }
 
 }
