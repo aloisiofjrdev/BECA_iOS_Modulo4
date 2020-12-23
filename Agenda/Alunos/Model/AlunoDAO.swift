@@ -38,10 +38,24 @@ class AlunoDAO: NSObject {
     }
     
     func salvaAluno(dicionarioDeAluno: Dictionary<String, Any>) {
-        let aluno = Aluno(context: contexto)
+        
+        var aluno: NSManagedObject?
+        
+        
         
         guard let id  = UUID(uuidString: dicionarioDeAluno["id"] as! String) else
             { return }
+        
+        let alunos = recuperaAlunos().filter()  { $0.id == id}
+        
+        if alunos.count > 0 {
+            guard let alunoEncontrado = alunos.first else { return }
+            aluno = alunoEncontrado
+        } else {
+            let entidade = NSEntityDescription.entity(forEntityName: "Aluno", in: contexto)
+            aluno = NSManagedObject(entity: entidade!, insertInto: contexto)
+        }
+        
         aluno.id = id
         aluno.nome = dicionarioDeAluno["nome"] as? String
         aluno.endereco = dicionarioDeAluno["endereco"] as? String
