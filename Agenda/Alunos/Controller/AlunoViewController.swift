@@ -77,7 +77,7 @@ class AlunoViewController: UIViewController, ImagePickerFotoSelecionada {
     
     func montaDicionarioDeParametros () -> Dictionary<String, String>{
         
-        var id =""
+        var id = ""
         
         if aluno?.id == nil {
             id = String(describing: UUID())
