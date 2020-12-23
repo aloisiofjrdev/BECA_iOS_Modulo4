@@ -28,6 +28,7 @@
 		D332412E25927436007B69B8 /* AlunoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D332412D25927436007B69B8 /* AlunoAPI.swift */; };
 		D332413025929644007B69B8 /* Repositorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D332412F25929644007B69B8 /* Repositorio.swift */; };
 		D3324132259297C3007B69B8 /* AlunoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3324131259297C3007B69B8 /* AlunoDAO.swift */; };
+		D332413525936B3B007B69B8 /* Agenda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D332413325936B3B007B69B8 /* Agenda.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		D332412D25927436007B69B8 /* AlunoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoAPI.swift; sourceTree = "<group>"; };
 		D332412F25929644007B69B8 /* Repositorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositorio.swift; sourceTree = "<group>"; };
 		D3324131259297C3007B69B8 /* AlunoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoDAO.swift; sourceTree = "<group>"; };
+		D332413425936B3B007B69B8 /* Agenda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Agenda.xcdatamodel; sourceTree = "<group>"; };
 		EFBE9A933CCD8973F4F7AC18 /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E3B881A2DF616B2FE34C7C /* Pods-Agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agenda.release.xcconfig"; path = "Target Support Files/Pods-Agenda/Pods-Agenda.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +112,7 @@
 				03AA17571FC84154003CB2B8 /* Assets.xcassets */,
 				03AA17591FC84154003CB2B8 /* LaunchScreen.storyboard */,
 				03AA175C1FC84154003CB2B8 /* Info.plist */,
+				D332413325936B3B007B69B8 /* Agenda.xcdatamodeld */,
 			);
 			path = Agenda;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				B9D565A71FE14ECA00BDA536 /* Notificacoes.swift in Sources */,
 				D332413025929644007B69B8 /* Repositorio.swift in Sources */,
 				B9FFD4511FDEE6F700CEE593 /* MapaViewController.swift in Sources */,
+				D332413525936B3B007B69B8 /* Agenda.xcdatamodeld in Sources */,
 				03AA174E1FC84154003CB2B8 /* AppDelegate.swift in Sources */,
 				B9EA19FB1FDEBEAD00403CE0 /* Localizacao.swift in Sources */,
 				658B1AA82006456B006D944C /* AutenticacaoLocal.swift in Sources */,
@@ -551,6 +555,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D332413325936B3B007B69B8 /* Agenda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D332413425936B3B007B69B8 /* Agenda.xcdatamodel */,
+			);
+			currentVersion = D332413425936B3B007B69B8 /* Agenda.xcdatamodel */;
+			path = Agenda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 03AA17421FC84154003CB2B8 /* Project object */;
 }
