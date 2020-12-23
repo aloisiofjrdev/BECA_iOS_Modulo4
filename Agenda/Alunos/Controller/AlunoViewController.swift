@@ -82,7 +82,7 @@ class AlunoViewController: UIViewController, ImagePickerFotoSelecionada {
         guard let site = textFieldSite.text else { return [:]}
         guard let nota = textFieldNota.text else { return [:]}
         let dicionario: Dictionary<String, String> = [
-            "id" : String(describing: UUID()),
+            "id" : String(describing: UUID()).lowercased(),
             "nome" : nome,
             "endereco" : endereco,
             "telefone" : telefone,
