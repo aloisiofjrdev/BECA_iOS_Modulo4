@@ -31,6 +31,7 @@
 		D332413525936B3B007B69B8 /* Agenda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D332413325936B3B007B69B8 /* Agenda.xcdatamodeld */; };
 		D332413725938ADA007B69B8 /* LigacaoTelefonica.swift in Sources */ = {isa = PBXBuildFile; fileRef = D332413625938ADA007B69B8 /* LigacaoTelefonica.swift */; };
 		D332413925938CCA007B69B8 /* Safari.swift in Sources */ = {isa = PBXBuildFile; fileRef = D332413825938CCA007B69B8 /* Safari.swift */; };
+		D332413B25938E7F007B69B8 /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D332413A25938E7F007B69B8 /* Filtro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		D332413425936B3B007B69B8 /* Agenda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Agenda.xcdatamodel; sourceTree = "<group>"; };
 		D332413625938ADA007B69B8 /* LigacaoTelefonica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigacaoTelefonica.swift; sourceTree = "<group>"; };
 		D332413825938CCA007B69B8 /* Safari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari.swift; sourceTree = "<group>"; };
+		D332413A25938E7F007B69B8 /* Filtro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtro.swift; sourceTree = "<group>"; };
 		EFBE9A933CCD8973F4F7AC18 /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E3B881A2DF616B2FE34C7C /* Pods-Agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agenda.release.xcconfig"; path = "Target Support Files/Pods-Agenda/Pods-Agenda.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,6 +201,7 @@
 				658B1AA72006456B006D944C /* AutenticacaoLocal.swift */,
 				D332413625938ADA007B69B8 /* LigacaoTelefonica.swift */,
 				D332413825938CCA007B69B8 /* Safari.swift */,
+				D332413A25938E7F007B69B8 /* Filtro.swift */,
 			);
 			path = Componentes;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				03AA176D1FC8515A003CB2B8 /* AlunoViewController.swift in Sources */,
 				D332412E25927436007B69B8 /* AlunoAPI.swift in Sources */,
 				65F277D92006901C00A8F1BF /* Pino.swift in Sources */,
+				D332413B25938E7F007B69B8 /* Filtro.swift in Sources */,
 				D3324132259297C3007B69B8 /* AlunoDAO.swift in Sources */,
 				03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */,
 				A281001A1FD5C2F700E1BDF1 /* ImagePicker.swift in Sources */,
