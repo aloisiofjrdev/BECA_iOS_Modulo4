@@ -41,10 +41,12 @@ class AlunoDAO: NSObject {
         let aluno = Aluno(context: contexto)
         
         guard let id  = UUID(uuidString: dicionarioDeAluno["id"] as! String) else { return }
+        
         aluno.nome = dicionarioDeAluno["nome"] as? String
         aluno.endereco = dicionarioDeAluno["endereco"] as? String
         aluno.telefone = dicionarioDeAluno["telefone"] as? String
         aluno.site = dicionarioDeAluno["site"] as? String
+        
         
         guard let nota = dicionarioDeAluno["nota"] else { return }
         
